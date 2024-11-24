@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading" style="color: blue;">CRUD OPERATION</h1>
+        <div class="input-fields">
+            <input type="text" id="name" placeholder="Enter your name..." required>
+            <input type="text" id="mobNo" placeholder="Enter your mob no..." required>
+            <input type="text" id="email" placeholder="Enter your Email..." required>
+            <button id="btn">INSERT</button>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>NAME</td>
+                        <td>MOB-NO</td>
+                        <td>Email</td>
+                    </tr>
+                </thead>
+                <tbody id="table-list"></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>

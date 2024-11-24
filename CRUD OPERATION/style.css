@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* max-width: max-content; */
+    margin: 0 auto;
+    width: 80%z;
+    text-align: center;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+#name,
+#mobNo,
+#email {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+
+.container {
+    border: 2px solid black;
+}
+
+
+#name{
+    height: 5vmin;
+    width: 30vmin;
+    border-radius: 5px;
+}
+
+#mobNo{
+    height: 5vmin;
+    width: 30vmin;
+    border-radius: 5px;
+}
+
+#email{
+    height: 5vmin;
+    width: 30vmin;
+    border-radius: 5px;
+}
+
+.input-fields{
+    display: flex;
+    gap: 5vmin;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #2980b9;
+    opacity: 50%;
+    font-size: 17px;
+}
+
+#heading{
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+
+
